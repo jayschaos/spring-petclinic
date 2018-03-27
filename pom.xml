@@ -230,12 +230,12 @@
  <snapshotRepository>
   <id>deployment</id>
      <name>snapshots</name>   
-  <url>http://192.168.56.3:8081/repository/maven-snapshots/</url>
+  <url>http://192.168.56.4:8081/repository/maven-snapshots/</url>
  </snapshotRepository>
  <repository>
   <id>deployment</id>
   <name>releases</name>  
-  <url>http://192.168.56.3:8081/repository/maven-releases/</url>
+  <url>http://192.168.56.4:8081/repository/maven-releases/</url>
  </repository>
 </distributionManagement>
 </project>
