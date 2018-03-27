@@ -228,11 +228,13 @@
  <!-- nexus repo details -->   
 <distributionManagement>
  <snapshotRepository>
-  <id>snapshots</id>
+  <id>deployment</id>
+     <name>snapshots</name>   
   <url>http://192.168.56.3:8081/repository/maven-snapshots/</url>
  </snapshotRepository>
  <repository>
-  <id>releases</id>
+  <id>deployment</id>
+  <name>releases</name>  
   <url>http://192.168.56.3:8081/repository/maven-releases/</url>
  </repository>
 </distributionManagement>
